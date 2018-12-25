@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style-type: none;
+}
+img{
+    vertical-align: middle;
+    border: 0;
+}
+.clr{
+    clear: both;
+}
+body{
+    background: url(../img/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.pricing-table{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    
+}
+.col{
+    flex: 25%;
+    padding: 10px;
+    max-width: 320px;
+    box-sizing: border-box;
+}
+.table{
+    background: #189BA3;
+    color: #fff;
+    padding: 40px 20px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 10px #00000070;
+}
+.table h2{
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+.table ul li{
+    padding: 10px 0;
+}
+.price{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.price span{
+    display: block;
+    font-size: 14px;
+}
+.table a{
+    color: #fff;
+    border: 1px solid #ffeaa7;
+    display: block;
+    padding: 10px 0;
+    margin: 10px 0;
+    border-radius: 40px;
+    text-transform: uppercase;
+    font-size: 14px;
+    transition: all linear .3s;
+}
+.table a:hover{
+    background: #ffeaa7;
+    color: #636e72;
+}
+.pop{
+    background: #00cec9;
+    color: #fff;
+    transform: rotate(45deg);
+    padding: 10px 40px;
+    position: absolute;
+    top: 13px;
+    right: -34px;
+}
+@media screen and (max-width:980px){
+    .col{
+        flex: 50%;
+    }
+}
